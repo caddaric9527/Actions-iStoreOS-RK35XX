@@ -164,5 +164,9 @@ cp -f $GITHUB_WORKSPACE/configfiles/dts/rk3568-nsy-g16-plus.dts target/linux/roc
 cp -f $GITHUB_WORKSPACE/configfiles/dts/rk3568-bdy-g18-pro.dts target/linux/rockchip/dts/rk3568/rk3568-bdy-g18-pro.dts
 
 
+# iStoreOS-settings
+git clone --depth=1 -b main https://github.com/xiaomeng9597/istoreos-settings package/default-settings
+
+
 # 定时限速插件
 git clone --depth=1 https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
